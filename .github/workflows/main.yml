@@ -1,0 +1,12 @@
+name: First Automation
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say Hello
+        run: echo "Automation GitHub fonctionne !"
